@@ -19,6 +19,7 @@ class genome {
     int getGreen(int index); // get Green
     int getBlue(int index); // get Blue
     void print(); // print out the genes
+    void UnitTest(); // test methods that have return
   
   private:
     Pixel* genes;
